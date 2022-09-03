@@ -3,7 +3,7 @@ A small library to make it easier to send messages via discords webhooks.
 
 Example Program:
 ```lua
-local discordWebhook = require("discord-webhook")
+local discordWebhook = require("discordWebhook")
 discordWebhook:init("https://discord.com/api/webhooks/...")
 discordWebhook:send("exampleName", "exampleMessage")
 ```
